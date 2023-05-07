@@ -1,0 +1,443 @@
+.header-top {
+    height: 768px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+header {
+    /* height: 60px; */
+    background-color: rgb(70, 63, 58);
+}
+
+.top {
+    /* margin: 0px 60px; */
+}
+
+.top-img {
+    /* background-color: antiquewhite; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 768px;
+    position: relative;
+    /* background-image: url(./img/thread-knives-near-bread.jpg); */
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imglogo {
+    /* background-color: rgba(0, 0, 0, 0.178); */
+    width: 100%;
+    height: 768px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 500px;
+}
+
+.logotext {
+    margin-top: 50px;
+    font-family: 'Old Standard TT', serif;
+    letter-spacing: 1px;
+}
+
+.mid-content {
+    /* background-color: lightgray; */
+    margin: 60px 0;
+    height: 100%;
+}
+
+.ar::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f564";
+    font-weight: 900;
+}
+
+.ab::before {
+    font-family: "Font Awesome 5 Free";
+    content: " \f07a";
+    font-weight: 900;
+}
+
+body {
+    height: 100%;
+}
+
+.recipe {
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.recipe-title {
+    /* background-color: aqua; */
+    /* padding-top: 80px;  文字標題 */
+}
+
+.title-img {
+    /* background-color:antiquewhite; */
+    /* width: 50px; */
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 60px; */
+    /* margin-top: 60px; */
+}
+
+.logonav {
+    color: #BCB8B1;
+    font-family: 'Old Standard TT', serif;
+    
+
+}
+.logonav:hover{
+    color:#F4F3EE;
+}
+
+.title {
+    padding-top: 18px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Old Standard TT', serif;
+    color: rgb(138, 129, 124);
+    letter-spacing: 1px;
+}
+
+.title-ch {
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    margin-bottom: 40px;
+}
+
+
+
+.nav-title {
+    display: block;
+    font-size: 12px;
+    color: rgb(44, 43, 37);
+}
+
+.recipecontent {
+    /* background-color: lightblue; */
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    /* height: 900px; */
+}
+
+.recipe-img {
+    background-color: rgb(77, 68, 57);
+    height: 400px;
+
+
+}
+
+.navtext {
+    /* font-family: 'Noto Serif TC', serif; */
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.low {
+    /* background-color: rgb(168, 183, 197); */
+    /* height: 900px; */
+    margin-top: 120px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 20px; */
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.itembox {
+    height: 250px;
+    width: 200px;
+    /* background-color: antiquewhite; */
+
+
+
+}
+
+.itembox:hover .price {
+    opacity: 1;
+
+}
+
+
+.price {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: #ffffff;
+    background-color: #7e71687c;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .4s;
+}
+
+.itembox-img {
+    /* background-color: aliceblue; */
+    width: 200px;
+    height: 200px;
+    clip-path: circle(50% at 50% 50%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.itembox-img img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:2px solid #7e71687c;
+    box-shadow: 0px 100px 30px -80px #7e71687c;
+
+}
+
+.itembox-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.item-title {
+    margin-top: 80px;
+}
+
+.New {
+    /* background-color: lightgray; */
+    /* height: 600px; */
+    margin-top: 120px;
+    padding: 60px;
+
+}
+
+.NewRecipe {
+    /* background-color: antiquewhite; */
+
+}
+
+.new-post {
+    /* height: 300px; */
+    padding: 20px;
+}
+
+.new-item {
+    /* background-color: azure; */
+    display: flex;
+    /* height: 850px; */
+    align-items: center;
+}
+
+.newitem-img {
+    height: 250px;
+    background-color: lightcoral;
+    position: relative;
+}
+
+.newitem-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.newpostbox {
+    height: 350px;
+    width: 250px;
+    /* background-color: #82cee7; */
+    position: relative;
+    /* border: 2px solid gainsboro; */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #463F3A;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .4s ease;
+    margin-bottom: 70px;
+}
+
+.newpostbox:hover .overlay {
+    height: 15%;
+}
+
+.recipebutton {
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+.newitem-text {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 18px;
+    font-family: 'Noto Serif TC', se
+}
+
+a {
+    color: #2a2623;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7e7168;
+}
+
+.hoverimg {}
+
+#img1 {
+    position: absolute;
+    transition: 0.5s ease;
+}
+
+#img2 {
+
+    position: absolute;
+}
+
+.hoverimg:hover #img1 {
+    opacity: 0;
+
+}
+
+/* 食譜頁面使用 */
+/* .recipe1{
+    height: 100%;
+    background-color: antiquewhite;
+}
+.recipe2{
+    height: 100%;
+    background-color: antiquewhite; 
+    padding: .5em;
+}
+.recipe3{
+    height: 100%;
+    background-color: antiquewhite; 
+    padding: .5em;
+} */
+
+.title1 {
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Noto Sans Display', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.title2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.title3 {
+    margin: 0px 20px;
+
+    text-align: center;
+
+}
+
+.title4 {
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Noto Sans Display', sans-serif;
+    padding-top: 30px;
+    width: 300px;
+    color: #7e7168;
+}
+
+.title5 {
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Noto Sans Display', sans-serif;
+    padding-top: 80px;
+    width: 300px;
+    color: #7e7168;
+}
+
+.recipeimg-title {
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Noto Sans Display', sans-serif;
+    text-align: center;
+
+}
+
+.d-block {
+    /* text-align: center; */
+}
+
+.animate__slideInUp {
+    --animate-duration: 1s;
+}
+
+.start {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    color: azure;
+    background-color: #2a2623;
+    border-radius: 0 30%;
+}
+
+.starttext {
+    /* border: 1px solid #2a2623; */
+    margin-top: 20px;
+    font-size: 20px;
+    color: #F4F3EE;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+
+
+
+}
+
+.animate__slideInLeft {
+    --animate-duration: 1s;
+}
+
+
+@media (max-width:400px) {
+    .hide-in-ads {
+        display: none;
+    }
+}
+
+@media (max-width:400px) {
+    .smalldiv {
+
+        height: 125px;
+        width: 125px;
+    }
+}
+
+
+
+/* 新的食譜頁面使用 */
+/* 新的食譜頁面使用 */
+/* 新的食譜頁面使用 */
+/* 新的食譜頁面使用 */
+/* 新的食譜頁面使用 */

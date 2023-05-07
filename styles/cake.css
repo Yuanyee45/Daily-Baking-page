@@ -1,0 +1,319 @@
+.header-top {
+    height: 768px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+header {
+    /* height: 60px; */
+    background-color: rgb(70, 63, 58);
+}
+
+.navtext {
+    /* font-family: 'Noto Serif TC', serif; */
+    font-size: 16px;
+    font-weight: 800;
+    line-height: -30px
+}
+
+.logonav {
+    color: #BCB8B1;
+    font-family: 'Old Standard TT', serif;
+    
+
+}
+.logonav:hover{
+    color:#F4F3EE;
+}
+mark{
+    background-color: #E0AFA0;
+}
+body {
+    height: 100%;
+}
+
+.recipetop {
+    height: 500px;
+    background-color: #B4B4B4;
+
+}
+
+.recipecontent {
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    /* display: flex; */
+    height: 500px;
+    position: relative;
+}
+
+.topimg {
+    display: inline-block;
+    background-color: antiquewhite;
+    height: 500px;
+    width: 50%;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+
+}
+
+.downimg {
+    background-color: antiquewhite;
+    /* display: inline-block; */
+    width: 50%;
+    height: 500px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.title {
+    position: absolute;
+    text-align: center;
+    color: #463F3A;
+    background-color: #F4F3EE;
+    width: 100%;
+    font-family: 'Old Standard TT', serif;
+    
+    
+}
+
+.cake-content {
+    /* background-color: #8f8580; */
+    height: 100%;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
+.h2cs {
+    text-align: start;
+    color: #463F3A;
+    margin: 50px 0px 25px;
+}
+
+li {}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+}
+
+.sidebar-text {
+    padding: 10px 0px;
+    color: #8A817C;
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+.postimg {
+    width: 90px;
+    height: 90px;
+}
+
+.postimg img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.posttext {
+    font-size: 15px;
+    text-align: center;
+}
+
+.cakerecipe {
+    /* height: 100%; */
+    /* background-color: #aa9a8f; */
+    /* border: 2px solid rgb(75, 71, 66); */
+    margin-top: 200px;
+    /* position: absolute; */
+
+}
+
+.cakepage {
+    position: relative;
+}
+
+.timedo {
+    text-align: center;
+    border: 1px solid rgb(97, 97, 97);
+    border-style: dashed;
+    /* margin: 0px 10px; */
+}
+
+
+.cakeimg {
+    position: absolute;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    width: 200px;
+    height: 200px;
+    /* background-color: #463F3A; */
+    /* clip-path: circle(50% at 50% 50%); */
+
+
+}
+
+.caketitle {
+    height: 100%;
+    /* background-color: #8A817C; */
+    color: #ffffff;
+
+
+
+}
+
+.caketitletext {
+    background-color: #8A817C;
+    height: 300px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 20px 20px 0 0;
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+}
+
+.cakerecipetext {
+    border: 2px solid #8A817C;
+    border-top: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.textgroup {
+    margin: 60px 0px 60px 0px;
+}
+
+.ulrecipe {
+    line-height: 30px;
+}
+
+ol {
+    line-height: 50px;
+}
+
+.UserText {
+    /* height: 700px; */
+    /* background-color: #463F3A; */
+    margin-bottom: 100px;
+}
+
+.ar::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f564";
+    font-weight: 900;
+}
+
+.ab::before {
+    font-family: "Font Awesome 5 Free";
+    content: " \f07a";
+    font-weight: 900;
+}
+
+.bu1::before {
+    position: relative;
+    font-family: "Font Awesome 5 Free";
+    content: " \f103";
+    font-weight: 900;
+    top: -20px;
+    opacity: 0;
+    transition: .4s;
+}
+
+.bu {
+    text-align: center;
+    color: aliceblue;
+
+
+}
+
+.Button {
+    width: 100%;
+    background-color: #463F3A;
+    font-size: 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #463F3A;
+    color: #ffffff;
+    transition: .5s;
+    box-shadow: 0px 5px 5px 0px #8A817C;
+}
+
+.Button:hover {
+    font-weight: bolder;
+    background-color: #8A817C;
+    color: #ffffff;
+
+}
+
+.Button:hover .bu1::before {
+
+    opacity: 1;
+    top: 0;
+}
+
+.type {
+    background-color: #8A817C;
+    /* border: 3px solid #463F3A; */
+    /* border-radius: 0px 0px 20px 20px; */
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.Usertype {
+    text-align: start;
+
+}
+
+.Username {
+    padding-top: 20px;
+
+}
+
+.writetext {
+    /* width: 50%; */
+}
+
+.Ucomment {
+    /* height: 100px; */
+    /* background-color: #8A817C; */
+}
+
+.boxc2 {
+    padding-left: 120px;
+    padding-bottom: 40px;
+    /* border-top: 1px solid #463F3A; */
+    /* border-bottom: 1px solid #463F3A; */
+    /* height: 200px; */
+    word-wrap: break-word
+}
+
+.boxc1 {
+    float: left;
+    /* padding-top: 40px; */
+    /* width: 100px;
+    height: 50px; */
+    /* margin-top: 20px;
+    margin-left: 10px; */
+    clip-path: circle(50% at 50% 50%);
+}
+
+.spE {
+    float: right;
+}
+
+.but {
+    border: #ffffff;
+    border-radius: 10px;
+}
+
+.backimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* display: inline-block; */
+    object-position: unset;
+
+    filter: opacity(.5) brightness(70%);
+
+}
