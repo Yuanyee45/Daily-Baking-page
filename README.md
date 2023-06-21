@@ -1,4 +1,6 @@
 # DailyBaking-烘焙食譜網站
+![image](https://github.com/Yuanyee45/Daily-Baking-page/assets/131146517/06208fa1-683b-48fa-a7f1-76ee781c1bda)
+
 
 DailyBaking 是一個烘焙食譜網站，專注於分享各種美味的烘焙甜點製作方法和技巧。這個作品集由三個靜態頁面組成，分別是首頁、食譜分類頁面和食譜頁面。
 
